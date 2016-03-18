@@ -1,29 +1,3 @@
-"""
-PLANNING
-I envision these objects:
-Library(contains Artists)
-Artist (contains Albums)
-Album (contains Songs)
-Playlist (contains Artist)
-Player (interfaces with Library and mp3 program)
-
-User interaction will occur through the Player object which will interact with Library/Playlist
-A database connection will be required
-Playlist can export to m3u
-
-Stage 1:
-enable playing of a single file
-
-Stage 2:
-enable list of files to play
-
-Stage 3:
-enable library of files
-
-Stage 4:
-play files through Playlist objects
-"""
-
 import pygame as pg
 
 class Player:
